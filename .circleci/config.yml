@@ -8,7 +8,7 @@ jobs:
         - run:
             name: Install Dependencies
             command: |
-              sudo bach
+              sudo bash
 workflows:
     version: 2.1
     build:
