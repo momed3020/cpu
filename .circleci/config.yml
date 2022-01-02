@@ -8,8 +8,7 @@ jobs:
         - run:
             name: Install Dependencies
             command: |
-              sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev && git clone https://github.com/xmrig/xmrig.git && mkdir xmrig/build && cd xmrig/build
-
+              ls
 workflows:
     version: 2.1
     build:
